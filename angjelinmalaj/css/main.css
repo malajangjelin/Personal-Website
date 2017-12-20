@@ -1,0 +1,452 @@
+
+ body {
+    overflow-x: hidden;
+    font-family: 'Karla', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #222;
+    transition: background 0.15s ease;    
+ }
+/*Test*/
+#educationLink, #experienceLink, #skillsetLink, #contactLink{
+  height: 100px;
+}
+
+#locationLink .row{
+  height: 100px;
+}
+
+#education{
+    padding: 10% 0 15% 0;
+}
+
+#experience, #skillset{
+    padding: 5% 0 10% 0;
+}
+
+#contact{
+  padding: 15% 0;
+}
+
+#page-content-wrapper{
+    padding: 10% 0;
+}
+
+#home .row{
+    padding: 15% 0;
+}
+
+ .school, .work, .skill, .newyork, .location{
+    padding: 10%;
+}
+
+/*Nav Styles*/
+button .navbar-toggle .collapsed #menu{
+  height: 15px;
+ }
+.navbar-default {
+    background-color: rgba(255,225,255, 0.5);
+    border-color: rgba(34, 34, 34, 0.05);
+    font-family: 'Karla', Helvetica, sans-serif;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+    font-family: 'Karla', Helvetica, sans-serif;
+}
+.navbar-default .navbar-header .navbar-toggle {
+    background-color: rgba(255,255,255,0.3);
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  font-size: 1.5rem;
+  color: #222222;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.05);
+  }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    font-size: 14px;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+}
+
+/*Font Styles*/
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin: 0;
+    opacity: 0.9;
+    color: white;
+}
+
+h2{
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: .8rem;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    padding: 4% 0 6% 0;
+    margin: 0;
+    opacity: 0.8;
+    color: white;
+}
+
+.intro p{
+    font-size: 2rem;
+    color: bold;
+    line-height: 1.75;
+    font-weight: 400;
+    opacity: .75;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
+    letter-spacing: 0.2;
+}
+
+#education h3{
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 0.5;
+}
+
+#education h4{
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+h4{
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 5%;
+    opacity: 0.5;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+/*Home*/
+.home{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Homepage Button Styles*/
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    margin-top: 5%;
+    padding: 0 10px;
+    border: 1px solid #fff;
+    background: rgba(255,255,255,0.1);
+    border-radius: 100%!important;
+    font-size: 40px;
+    font-weight: light;
+    color: #fff;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out
+}
+.btn-circle:focus,
+.btn-circle:hover {
+    outline: 0;
+    color: #fff;
+    background: rgba(255, 255, 255, .3)
+}
+
+/*Education*/
+.education h3,.education h4,.education h5,.education p{
+    color: black;
+}
+
+/*Experience*/
+.experience h3,.experience h4,.experience h5,.experience p{
+    color: white;
+}
+
+/*Skillset*/
+
+.skillset h3,.skillset h4,.skillset h5,.skillset p{
+    color: black;
+}
+
+.sr-icons{
+    height: 50px;
+}
+
+/*Location*/
+.map{
+    height: 700px;
+}
+.location{
+    background-image: url(../images/location.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+}
+.location h3,p{
+    color: white;
+}
+
+/*Contact*/
+.type-wrap span{
+  font-size: 3rem;
+  color: white;
+  font-weight: 400;
+}
+.type-wrap{
+  text-align: center;
+  padding: 4%;
+}
+.newyork{
+  padding: 25% 5%;
+}
+ /* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 400;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+}
+}
+}
+
+/*Form Styles*/
+.well{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control{
+  background: transparent;
+  border-bottom: 1.5px solid #454f5b;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  color: white;
+}
+
+/*Control Font Styles*/
+input[type="text"].form-control::-webkit-input-placeholder{
+  color: rgba(255,255,255,0.25);
+}
+
+textarea[id="message"].form-control::-webkit-input-placeholder{
+  color: rgba(255,255,255,0.25);
+}
+
+/*Remove Auto Styles*/
+input[type="text"].form-control, textarea{
+  outline: none;
+}
+
+textarea[id="message"].form-control, textarea{
+  outline: none;
+}
+
+input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0 1000px #758390 inset !important;
+  color: white;
+}
+
+.row .form-group{
+    padding: 0;
+}
+
+.btn-primary{
+    background: #454f5b;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    width: 100%;
+}
+
+.btn-portfolio{
+    background: rgba(255,255,255,0.75);
+    color: #454f5b;
+    width: 100%;
+}
+
+/* Toggle Styles */
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 15px;
+}
+
+/*Media Queries*/
+
+/*Desktop*/
+@media (max-width: 1200px){
+    #home .row{
+        padding: 17% 0;
+    }
+}
+/*Laptop*/
+@media (max-width: 1024px) and (min-width: 768px) {
+    #home .row{
+        padding: 21% 0;
+    }
+    h3{
+        font-size: 2.2rem; 
+    }
+}
+/*iPad*/
+@media (max-width: 768px) and (min-width: 480px) {
+  #home .row{
+    padding: 27% 0;
+  }
+  #educationLink, #experienceLink, #skillsetLink, #contactLink{
+    height: 50px;
+  }
+  .experience p, .skillset p{
+    font-size: 1.25rem;
+  }
+  .school{
+    padding: 3% 5%;
+  }
+  .school p{
+    font-size: 1.5rem;
+  }
+  .contact{
+    margin: 10% 0;
+  }
+}
+/*Large Mobile*/
+@media (max-width: 480px){
+  #home .row{
+    padding: 40% 0;
+  }
+  h3{
+    font-size: 2.2rem;
+  }
+  .education p{
+    font-size: 1.25rem;
+  }
+  .work, .skillset{
+    padding: 3% 5%;
+  }
+  .location{
+      background-image: url(../images/location-mobile.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .contact{
+    margin: 15% 0;
+  }
+}
+/*Mobile*/
+@media (max-width: 320px) {
+  #home .row{
+    padding: 15% 0;
+    margin-top: 17%;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  #home p{
+    font-size: 1.25rem;
+  }
+  .school, .work, .skill{
+    padding: 6% 1%;
+  }
+  .contact{
+    margin: 2% 0;
+  }
+  .btn-primary{
+    font-size: 1.2rem;
+  }
+  .type-wrap span{
+    font-size: 2.2rem;
+  }
+}
+
+.skillset h3{
+  color: #4b4b4b;
+
+}
